@@ -25,10 +25,13 @@ abstract class Vehicle {
 
 class Car {
     - dailyInsurance: double
+    + calculateRentalCost(days: int): double
+
 }
 
 class Motorcycle {
     - discountRate: double
+    + calculateRentalCost(days: int): double
 }
 
 class RentalService {
